@@ -1,0 +1,2522 @@
+[
+  {
+    "movie": [
+      {
+        "id": "2765e037-f5af-4098-99b8-c2cfa72fe41d",
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "duration": 97177,
+        "rating": 84291,
+        "release_date": "2023-10-02T16:41:35.885Z",
+        "created_at": "2023-10-02T06:27:55.058Z",
+        "updated_at": "2023-10-02T07:16:40.606Z"
+      },
+      {
+        "id": "1a85f9c6-3468-42dc-b1bf-0792e52eeb5a",
+        "title": "Inception",
+        "director": "Quentin Tarantino",
+        "genre": "Thriller",
+        "duration": 38699,
+        "rating": 65729,
+        "release_date": "2023-10-02T07:15:47.110Z",
+        "created_at": "2023-10-02T18:30:34.322Z",
+        "updated_at": "2023-10-02T20:23:24.540Z"
+      },
+      {
+        "id": "ac8d0be9-d468-4edd-b2f9-40db44cbbe76",
+        "title": "Pulp Fiction",
+        "director": "Frank Darabont",
+        "genre": "Crime",
+        "duration": 69604,
+        "rating": 4080,
+        "release_date": "2023-10-03T00:19:39.018Z",
+        "created_at": "2023-10-02T06:08:25.718Z",
+        "updated_at": "2023-10-03T02:22:55.149Z"
+      },
+      {
+        "id": "f8d4e6b6-0634-44e5-bb05-bd4822d416cb",
+        "title": "The Shawshank Redemption",
+        "director": "David Fincher",
+        "genre": "Drama",
+        "duration": 24809,
+        "rating": 13385,
+        "release_date": "2023-10-02T11:47:52.941Z",
+        "created_at": "2023-10-02T22:01:09.538Z",
+        "updated_at": "2023-10-02T10:15:19.827Z"
+      },
+      {
+        "id": "7d6c3ded-baeb-403e-97d6-cc5aec83731e",
+        "title": "Fight Club",
+        "director": "Martin Scorsese",
+        "genre": "Mystery",
+        "duration": 4563,
+        "rating": 55095,
+        "release_date": "2023-10-02T14:28:06.370Z",
+        "created_at": "2023-10-02T14:44:54.694Z",
+        "updated_at": "2023-10-02T19:30:20.332Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "6d1c057a-31f5-4828-af21-35bef168940e",
+        "show_time": "2023-10-03T00:52:40.506Z",
+        "seat_price": 41849,
+        "available_seats": 11847,
+        "created_at": "2023-10-03T04:13:35.733Z",
+        "updated_at": "2023-10-02T12:42:21.791Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "1a85f9c6-3468-42dc-b1bf-0792e52eeb5a"
+      },
+      {
+        "id": "56572bc8-caf3-4cf7-9c8e-dd60dad3b796",
+        "show_time": "2023-10-02T19:46:40.481Z",
+        "seat_price": 44392,
+        "available_seats": 43013,
+        "created_at": "2023-10-03T03:16:29.075Z",
+        "updated_at": "2023-10-03T04:26:58.274Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "ac8d0be9-d468-4edd-b2f9-40db44cbbe76"
+      },
+      {
+        "id": "d7bc38bc-ece8-4f8b-9c4c-979e5be95b5f",
+        "show_time": "2023-10-02T05:05:44.149Z",
+        "seat_price": 463,
+        "available_seats": 75681,
+        "created_at": "2023-10-02T05:14:23.093Z",
+        "updated_at": "2023-10-02T12:18:50.793Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "7d6c3ded-baeb-403e-97d6-cc5aec83731e"
+      },
+      {
+        "id": "653097eb-9adb-4167-979c-51b1c0043d0a",
+        "show_time": "2023-10-02T15:30:08.546Z",
+        "seat_price": 36213,
+        "available_seats": 79511,
+        "created_at": "2023-10-02T10:40:27.710Z",
+        "updated_at": "2023-10-03T02:05:57.362Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "f8d4e6b6-0634-44e5-bb05-bd4822d416cb"
+      },
+      {
+        "id": "df102fc5-3701-447c-9f75-e4aeee17d676",
+        "show_time": "2023-10-02T06:04:18.402Z",
+        "seat_price": 95052,
+        "available_seats": 1761,
+        "created_at": "2023-10-02T18:08:33.501Z",
+        "updated_at": "2023-10-03T03:39:46.230Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "7d6c3ded-baeb-403e-97d6-cc5aec83731e"
+      }
+    ],
+    "booking": [
+      {
+        "id": "8f833c61-04f7-41e5-a2f7-43e3c87492e9",
+        "booking_time": "2023-10-02T20:42:19.308Z",
+        "total_seats": 84256,
+        "total_price": 67347,
+        "created_at": "2023-10-02T13:13:11.853Z",
+        "updated_at": "2023-10-02T08:05:14.379Z",
+        "show_id": "56572bc8-caf3-4cf7-9c8e-dd60dad3b796",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd7bba95-1ac2-4741-bbbb-b5bb0eb9d855",
+        "booking_time": "2023-10-02T09:12:25.718Z",
+        "total_seats": 45664,
+        "total_price": 22760,
+        "created_at": "2023-10-03T04:50:59.361Z",
+        "updated_at": "2023-10-03T02:46:05.419Z",
+        "show_id": "df102fc5-3701-447c-9f75-e4aeee17d676",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e980185-5826-46b4-ba83-7100482ba1bd",
+        "booking_time": "2023-10-03T01:22:33.180Z",
+        "total_seats": 39379,
+        "total_price": 1593,
+        "created_at": "2023-10-03T02:11:13.845Z",
+        "updated_at": "2023-10-02T22:06:17.223Z",
+        "show_id": "56572bc8-caf3-4cf7-9c8e-dd60dad3b796",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e58c747d-095a-462a-a6b7-d438d7e469e7",
+        "booking_time": "2023-10-03T04:42:33.382Z",
+        "total_seats": 66595,
+        "total_price": 44574,
+        "created_at": "2023-10-03T01:55:17.050Z",
+        "updated_at": "2023-10-02T21:33:34.459Z",
+        "show_id": "6d1c057a-31f5-4828-af21-35bef168940e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "af9a5097-e980-4043-ac93-b9fa786b95e4",
+        "booking_time": "2023-10-02T16:24:19.411Z",
+        "total_seats": 60953,
+        "total_price": 32230,
+        "created_at": "2023-10-02T22:38:51.012Z",
+        "updated_at": "2023-10-02T11:06:36.599Z",
+        "show_id": "6d1c057a-31f5-4828-af21-35bef168940e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "8a3f7c91-fb9b-471d-bc44-f0823a540331",
+        "seat_number": 56894,
+        "price": 85471,
+        "created_at": "2023-10-02T13:33:21.062Z",
+        "updated_at": "2023-10-02T11:01:34.877Z",
+        "booking_id": "af9a5097-e980-4043-ac93-b9fa786b95e4"
+      },
+      {
+        "id": "5fdae20d-f549-4e67-9abe-12a1c9902bb0",
+        "seat_number": 33353,
+        "price": 1228,
+        "created_at": "2023-10-02T05:57:22.200Z",
+        "updated_at": "2023-10-02T15:30:23.814Z",
+        "booking_id": "bd7bba95-1ac2-4741-bbbb-b5bb0eb9d855"
+      },
+      {
+        "id": "655d7e9a-6a6f-4a26-99a7-90894615772b",
+        "seat_number": 17792,
+        "price": 93101,
+        "created_at": "2023-10-02T20:58:01.160Z",
+        "updated_at": "2023-10-02T23:38:30.225Z",
+        "booking_id": "3e980185-5826-46b4-ba83-7100482ba1bd"
+      },
+      {
+        "id": "d2908d31-8763-4a88-bd52-8608ef1f9b0c",
+        "seat_number": 87841,
+        "price": 21806,
+        "created_at": "2023-10-02T10:48:40.812Z",
+        "updated_at": "2023-10-03T03:18:20.378Z",
+        "booking_id": "8f833c61-04f7-41e5-a2f7-43e3c87492e9"
+      },
+      {
+        "id": "59693823-97a1-4649-89ec-f99b310f6080",
+        "seat_number": 83146,
+        "price": 8771,
+        "created_at": "2023-10-03T04:35:33.303Z",
+        "updated_at": "2023-10-02T09:25:38.017Z",
+        "booking_id": "af9a5097-e980-4043-ac93-b9fa786b95e4"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a9371260-bf5c-42e5-91a1-2221c9182618",
+        "email": "Yvonne.Vandervort@roq.tech",
+        "firstName": "Davin",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/52437488",
+        "tenantId": null
+      },
+      {
+        "reference": "004d13f6-f863-4ae3-8e1d-076a8d69bd1b",
+        "email": "Stanley_Krajcik@roq.tech",
+        "firstName": "Eliezer",
+        "lastName": "Blanda",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/776.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a69bbd3a-0c7d-4e3f-9cd4-f80e8cc855b3",
+        "email": "Erika.Swaniawski32@roq.tech",
+        "firstName": "Gaetano",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44888548",
+        "tenantId": null
+      },
+      {
+        "reference": "f737d0c1-7ac0-4dc8-a3f2-451ad9b7c7bb",
+        "email": "Ivory.Brakus@roq.tech",
+        "firstName": "Cory",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/70293917",
+        "tenantId": null
+      },
+      {
+        "reference": "b0a73880-affd-436a-8df5-71c843649b16",
+        "email": "Eriberto19@roq.tech",
+        "firstName": "Joseph",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1661601",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "f91ee792-3544-4d91-b9d1-662e8c911492",
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "duration": 82876,
+        "rating": 89797,
+        "release_date": "2023-10-02T20:59:55.876Z",
+        "created_at": "2023-10-02T05:54:20.723Z",
+        "updated_at": "2023-10-02T21:19:52.792Z"
+      },
+      {
+        "id": "32de8dc8-f541-4050-9570-138026cacd90",
+        "title": "The Dark Knight",
+        "director": "Quentin Tarantino",
+        "genre": "Thriller",
+        "duration": 81412,
+        "rating": 56004,
+        "release_date": "2023-10-02T19:36:53.905Z",
+        "created_at": "2023-10-02T19:07:39.080Z",
+        "updated_at": "2023-10-02T07:52:01.773Z"
+      },
+      {
+        "id": "39da7e39-42b7-49e1-98ef-ad7f8bb19639",
+        "title": "Pulp Fiction",
+        "director": "David Fincher",
+        "genre": "Drama",
+        "duration": 84000,
+        "rating": 51643,
+        "release_date": "2023-10-02T22:49:48.740Z",
+        "created_at": "2023-10-02T20:25:04.021Z",
+        "updated_at": "2023-10-02T14:21:24.735Z"
+      },
+      {
+        "id": "19fc4d72-cb6e-4fa1-b50b-e5861d3adb60",
+        "title": "Fight Club",
+        "director": "Martin Scorsese",
+        "genre": "Crime",
+        "duration": 80072,
+        "rating": 16967,
+        "release_date": "2023-10-03T04:49:37.434Z",
+        "created_at": "2023-10-02T09:20:37.010Z",
+        "updated_at": "2023-10-03T01:52:26.814Z"
+      },
+      {
+        "id": "47465fd2-af01-428a-8d38-1d0428b53d2b",
+        "title": "The Shawshank Redemption",
+        "director": "Steven Spielberg",
+        "genre": "Sci-Fi",
+        "duration": 3775,
+        "rating": 22014,
+        "release_date": "2023-10-02T11:13:09.408Z",
+        "created_at": "2023-10-02T06:08:44.851Z",
+        "updated_at": "2023-10-03T03:16:24.661Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "4f82f99f-28c0-4fe5-9792-957bedc4aa56",
+        "show_time": "2023-10-02T09:20:08.714Z",
+        "seat_price": 23258,
+        "available_seats": 39921,
+        "created_at": "2023-10-02T06:51:44.188Z",
+        "updated_at": "2023-10-02T08:07:29.361Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "32de8dc8-f541-4050-9570-138026cacd90"
+      },
+      {
+        "id": "7f7f83e7-5915-490e-8d2c-51db09da2e4e",
+        "show_time": "2023-10-02T07:37:47.671Z",
+        "seat_price": 63342,
+        "available_seats": 75408,
+        "created_at": "2023-10-02T08:43:37.365Z",
+        "updated_at": "2023-10-02T10:53:13.034Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "19fc4d72-cb6e-4fa1-b50b-e5861d3adb60"
+      },
+      {
+        "id": "5414bc92-0b35-4ecc-b00a-bc649d53b32f",
+        "show_time": "2023-10-03T01:33:38.234Z",
+        "seat_price": 70833,
+        "available_seats": 51550,
+        "created_at": "2023-10-02T05:43:49.908Z",
+        "updated_at": "2023-10-02T20:18:31.997Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "39da7e39-42b7-49e1-98ef-ad7f8bb19639"
+      },
+      {
+        "id": "3b93f6b9-bb2d-4db2-a59b-bae183b0635a",
+        "show_time": "2023-10-02T19:36:45.604Z",
+        "seat_price": 8445,
+        "available_seats": 85295,
+        "created_at": "2023-10-02T13:27:27.090Z",
+        "updated_at": "2023-10-02T13:53:33.907Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "f91ee792-3544-4d91-b9d1-662e8c911492"
+      },
+      {
+        "id": "715c574c-0698-4bf1-9aee-d7bab209b164",
+        "show_time": "2023-10-02T23:27:23.789Z",
+        "seat_price": 69445,
+        "available_seats": 22317,
+        "created_at": "2023-10-02T13:48:35.230Z",
+        "updated_at": "2023-10-02T10:51:59.230Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "47465fd2-af01-428a-8d38-1d0428b53d2b"
+      }
+    ],
+    "booking": [
+      {
+        "id": "7e002e76-c58d-4eaa-9c2d-c0e74b512304",
+        "booking_time": "2023-10-03T00:12:04.025Z",
+        "total_seats": 51331,
+        "total_price": 52396,
+        "created_at": "2023-10-02T23:23:58.493Z",
+        "updated_at": "2023-10-02T09:46:58.543Z",
+        "show_id": "5414bc92-0b35-4ecc-b00a-bc649d53b32f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05783c93-f431-4845-bad4-d2f480f22d49",
+        "booking_time": "2023-10-02T18:53:47.589Z",
+        "total_seats": 17166,
+        "total_price": 66240,
+        "created_at": "2023-10-02T22:32:29.191Z",
+        "updated_at": "2023-10-02T21:37:06.158Z",
+        "show_id": "7f7f83e7-5915-490e-8d2c-51db09da2e4e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fcd5341-e839-4345-aea5-84cdb951ca0c",
+        "booking_time": "2023-10-02T11:48:09.837Z",
+        "total_seats": 2487,
+        "total_price": 85782,
+        "created_at": "2023-10-02T12:30:09.056Z",
+        "updated_at": "2023-10-03T02:02:36.700Z",
+        "show_id": "4f82f99f-28c0-4fe5-9792-957bedc4aa56",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5636e9f-fdb4-48e2-968f-6186a4a49ce6",
+        "booking_time": "2023-10-02T22:47:30.608Z",
+        "total_seats": 38229,
+        "total_price": 11467,
+        "created_at": "2023-10-02T17:34:33.679Z",
+        "updated_at": "2023-10-03T01:58:12.178Z",
+        "show_id": "7f7f83e7-5915-490e-8d2c-51db09da2e4e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b17c47f0-9146-4949-9904-a069d88b92bc",
+        "booking_time": "2023-10-02T12:15:50.172Z",
+        "total_seats": 12741,
+        "total_price": 76799,
+        "created_at": "2023-10-03T00:55:36.690Z",
+        "updated_at": "2023-10-02T06:59:09.451Z",
+        "show_id": "715c574c-0698-4bf1-9aee-d7bab209b164",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "a9a0dafb-bc8a-4b69-bf47-437b85be6d8e",
+        "seat_number": 86063,
+        "price": 15718,
+        "created_at": "2023-10-02T11:12:29.199Z",
+        "updated_at": "2023-10-03T02:36:19.807Z",
+        "booking_id": "05783c93-f431-4845-bad4-d2f480f22d49"
+      },
+      {
+        "id": "4604b5bb-094a-4a6c-bd1b-573a74047fe4",
+        "seat_number": 92058,
+        "price": 95784,
+        "created_at": "2023-10-02T09:38:55.239Z",
+        "updated_at": "2023-10-02T07:10:25.652Z",
+        "booking_id": "2fcd5341-e839-4345-aea5-84cdb951ca0c"
+      },
+      {
+        "id": "ba53a09d-2769-4e6a-8c0a-a86b7db92d2e",
+        "seat_number": 26931,
+        "price": 37651,
+        "created_at": "2023-10-02T23:22:58.611Z",
+        "updated_at": "2023-10-03T01:42:42.909Z",
+        "booking_id": "7e002e76-c58d-4eaa-9c2d-c0e74b512304"
+      },
+      {
+        "id": "04dde2a0-0946-4919-8efd-f90c7a65612c",
+        "seat_number": 19702,
+        "price": 83538,
+        "created_at": "2023-10-02T18:07:59.075Z",
+        "updated_at": "2023-10-02T13:27:13.866Z",
+        "booking_id": "2fcd5341-e839-4345-aea5-84cdb951ca0c"
+      },
+      {
+        "id": "d320f593-cf80-4472-b1c3-b3fcc8138fd2",
+        "seat_number": 30060,
+        "price": 43254,
+        "created_at": "2023-10-02T17:38:24.714Z",
+        "updated_at": "2023-10-02T14:26:15.143Z",
+        "booking_id": "2fcd5341-e839-4345-aea5-84cdb951ca0c"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19e1ceb7-8ae7-4e37-ab1c-cafa7d549786",
+        "email": "Deanna92@roq.tech",
+        "firstName": "Rosalinda",
+        "lastName": "Maggio",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/67335612",
+        "tenantId": null
+      },
+      {
+        "reference": "857ad27b-76fb-4661-89eb-d3ca745f2674",
+        "email": "Sean.Bernier33@roq.tech",
+        "firstName": "Cayla",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/799.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6f6c4508-e44e-4b66-aec9-ac8875fa6cf5",
+        "email": "Alice_Schaden@roq.tech",
+        "firstName": "Joelle",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/20486593",
+        "tenantId": null
+      },
+      {
+        "reference": "f5a5c21d-3be3-4822-8e99-183035d85865",
+        "email": "Garrick50@roq.tech",
+        "firstName": "Brennon",
+        "lastName": "Metz-Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1162.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "9b6c2073-b9c4-4c91-ad08-b18fe5495b9d",
+        "email": "Rashad_Kassulke94@roq.tech",
+        "firstName": "Carlie",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31621651",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "b299a2bb-00ac-44b9-b963-4e2335a14398",
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "duration": 96868,
+        "rating": 9158,
+        "release_date": "2023-10-02T07:59:51.061Z",
+        "created_at": "2023-10-03T02:02:13.912Z",
+        "updated_at": "2023-10-02T08:22:18.882Z"
+      },
+      {
+        "id": "c488729d-33c2-4c13-9f02-beab61ffbb02",
+        "title": "Inception",
+        "director": "Quentin Tarantino",
+        "genre": "Thriller",
+        "duration": 19300,
+        "rating": 29448,
+        "release_date": "2023-10-02T08:23:26.950Z",
+        "created_at": "2023-10-02T13:37:18.999Z",
+        "updated_at": "2023-10-02T10:11:53.244Z"
+      },
+      {
+        "id": "d87f8a24-84e0-4a86-9a62-d35c394f519e",
+        "title": "Pulp Fiction",
+        "director": "Frank Darabont",
+        "genre": "Crime",
+        "duration": 11397,
+        "rating": 3308,
+        "release_date": "2023-10-02T09:30:05.661Z",
+        "created_at": "2023-10-02T14:12:59.701Z",
+        "updated_at": "2023-10-02T12:08:57.764Z"
+      },
+      {
+        "id": "e6018f8b-ebad-422e-b320-b8c49c1f2505",
+        "title": "The Shawshank Redemption",
+        "director": "David Fincher",
+        "genre": "Drama",
+        "duration": 21402,
+        "rating": 48901,
+        "release_date": "2023-10-03T02:49:39.266Z",
+        "created_at": "2023-10-02T20:47:43.005Z",
+        "updated_at": "2023-10-02T11:12:29.787Z"
+      },
+      {
+        "id": "fe6af793-4c59-451b-a0fc-64f1cffd2b1f",
+        "title": "Fight Club",
+        "director": "Martin Scorsese",
+        "genre": "Mystery",
+        "duration": 30364,
+        "rating": 54679,
+        "release_date": "2023-10-02T08:51:18.067Z",
+        "created_at": "2023-10-02T20:43:45.851Z",
+        "updated_at": "2023-10-02T20:48:27.510Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "c44f1c4a-cda1-43b9-887a-b4a9b44bf72d",
+        "show_time": "2023-10-02T05:36:40.088Z",
+        "seat_price": 84243,
+        "available_seats": 25525,
+        "created_at": "2023-10-02T08:53:17.535Z",
+        "updated_at": "2023-10-02T20:53:49.088Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "c488729d-33c2-4c13-9f02-beab61ffbb02"
+      },
+      {
+        "id": "07c68100-ed56-465f-ae0c-b912909faa67",
+        "show_time": "2023-10-02T12:05:06.931Z",
+        "seat_price": 39082,
+        "available_seats": 48490,
+        "created_at": "2023-10-02T20:02:43.758Z",
+        "updated_at": "2023-10-02T13:22:31.097Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "e6018f8b-ebad-422e-b320-b8c49c1f2505"
+      },
+      {
+        "id": "493e1870-89a7-4631-aedb-d3b36701d98a",
+        "show_time": "2023-10-02T05:52:56.719Z",
+        "seat_price": 34241,
+        "available_seats": 9628,
+        "created_at": "2023-10-02T15:42:58.833Z",
+        "updated_at": "2023-10-02T22:22:38.394Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "b299a2bb-00ac-44b9-b963-4e2335a14398"
+      },
+      {
+        "id": "e21755b4-860d-4306-be05-c8cf00c196c6",
+        "show_time": "2023-10-03T03:47:47.510Z",
+        "seat_price": 99544,
+        "available_seats": 30962,
+        "created_at": "2023-10-02T21:32:19.273Z",
+        "updated_at": "2023-10-02T10:38:01.831Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "d87f8a24-84e0-4a86-9a62-d35c394f519e"
+      },
+      {
+        "id": "f3e828d0-f096-4144-94c9-de66efaaeea7",
+        "show_time": "2023-10-02T13:53:12.634Z",
+        "seat_price": 22715,
+        "available_seats": 66644,
+        "created_at": "2023-10-02T22:39:52.958Z",
+        "updated_at": "2023-10-02T23:48:34.758Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "d87f8a24-84e0-4a86-9a62-d35c394f519e"
+      }
+    ],
+    "booking": [
+      {
+        "id": "1c83d679-2685-4f78-a5a0-b8a956136a57",
+        "booking_time": "2023-10-02T15:06:35.670Z",
+        "total_seats": 51433,
+        "total_price": 29772,
+        "created_at": "2023-10-03T03:54:19.855Z",
+        "updated_at": "2023-10-02T20:23:06.256Z",
+        "show_id": "07c68100-ed56-465f-ae0c-b912909faa67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cdd043e-6140-4ef1-b916-02007e4360a7",
+        "booking_time": "2023-10-02T18:16:27.673Z",
+        "total_seats": 92526,
+        "total_price": 99034,
+        "created_at": "2023-10-02T19:44:28.008Z",
+        "updated_at": "2023-10-02T07:48:41.952Z",
+        "show_id": "e21755b4-860d-4306-be05-c8cf00c196c6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ad8b411-e239-47ac-8007-a3413fa277c7",
+        "booking_time": "2023-10-02T09:08:40.705Z",
+        "total_seats": 30672,
+        "total_price": 24560,
+        "created_at": "2023-10-02T23:11:09.842Z",
+        "updated_at": "2023-10-02T07:09:23.057Z",
+        "show_id": "07c68100-ed56-465f-ae0c-b912909faa67",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3527e494-2a72-4cdf-a7e4-3f9029fd6b7f",
+        "booking_time": "2023-10-02T19:07:19.421Z",
+        "total_seats": 75346,
+        "total_price": 5345,
+        "created_at": "2023-10-02T08:47:53.119Z",
+        "updated_at": "2023-10-03T04:09:04.915Z",
+        "show_id": "c44f1c4a-cda1-43b9-887a-b4a9b44bf72d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8d4daab-107e-4747-971b-7e15aa724c1d",
+        "booking_time": "2023-10-02T18:46:48.314Z",
+        "total_seats": 56702,
+        "total_price": 66536,
+        "created_at": "2023-10-02T16:32:21.654Z",
+        "updated_at": "2023-10-02T17:34:57.064Z",
+        "show_id": "c44f1c4a-cda1-43b9-887a-b4a9b44bf72d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "3d8e0d25-1685-40be-af70-42b13c1ba948",
+        "seat_number": 4221,
+        "price": 83352,
+        "created_at": "2023-10-02T05:25:59.196Z",
+        "updated_at": "2023-10-03T04:06:45.078Z",
+        "booking_id": "6cdd043e-6140-4ef1-b916-02007e4360a7"
+      },
+      {
+        "id": "8e1ea0f3-35ba-4147-bc79-a90158b139af",
+        "seat_number": 377,
+        "price": 94298,
+        "created_at": "2023-10-02T16:54:21.108Z",
+        "updated_at": "2023-10-02T23:26:27.476Z",
+        "booking_id": "1c83d679-2685-4f78-a5a0-b8a956136a57"
+      },
+      {
+        "id": "18def7bc-e776-4315-a37a-510a31666ab4",
+        "seat_number": 92808,
+        "price": 87149,
+        "created_at": "2023-10-03T02:01:31.584Z",
+        "updated_at": "2023-10-02T20:06:13.443Z",
+        "booking_id": "3527e494-2a72-4cdf-a7e4-3f9029fd6b7f"
+      },
+      {
+        "id": "240cfbbb-1e25-4351-9990-c0988f1f1101",
+        "seat_number": 2401,
+        "price": 77420,
+        "created_at": "2023-10-02T16:05:22.460Z",
+        "updated_at": "2023-10-02T08:59:12.408Z",
+        "booking_id": "6cdd043e-6140-4ef1-b916-02007e4360a7"
+      },
+      {
+        "id": "c368056a-9c41-47d9-9c1d-ec865de6832f",
+        "seat_number": 65439,
+        "price": 27054,
+        "created_at": "2023-10-02T11:50:19.913Z",
+        "updated_at": "2023-10-02T20:24:18.943Z",
+        "booking_id": "3527e494-2a72-4cdf-a7e4-3f9029fd6b7f"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e6f08036-2b84-4656-bb32-5e43dbfde409",
+        "email": "Blair_Fay@roq.tech",
+        "firstName": "Rico",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/84448094",
+        "tenantId": null
+      },
+      {
+        "reference": "9220f8c5-6537-4fae-9577-cb12601a2f32",
+        "email": "Celestino_Turcotte@roq.tech",
+        "firstName": "Johanna",
+        "lastName": "Buckridge",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17456362",
+        "tenantId": null
+      },
+      {
+        "reference": "b03266fe-80b3-4ecf-ba29-bc37c0f782de",
+        "email": "Susana.Rolfson@roq.tech",
+        "firstName": "Virgie",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/59337226",
+        "tenantId": null
+      },
+      {
+        "reference": "b86911c4-139a-48d3-aa96-d36e157041fa",
+        "email": "Earl_Harber@roq.tech",
+        "firstName": "Wilmer",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23030074",
+        "tenantId": null
+      },
+      {
+        "reference": "75ee5cea-ca7b-4fea-adbd-390b86c0d5d7",
+        "email": "Darrion_Sawayn98@roq.tech",
+        "firstName": "Alysa",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/158.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "00ddfe06-e34c-47db-88b8-b62531083d22",
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "duration": 20412,
+        "rating": 83932,
+        "release_date": "2023-10-02T10:45:32.029Z",
+        "created_at": "2023-10-02T06:34:28.166Z",
+        "updated_at": "2023-10-02T08:31:56.392Z"
+      },
+      {
+        "id": "7054f49f-33ec-40eb-8f4f-f0c3f4121aef",
+        "title": "The Dark Knight",
+        "director": "Quentin Tarantino",
+        "genre": "Thriller",
+        "duration": 3950,
+        "rating": 88471,
+        "release_date": "2023-10-02T09:30:14.223Z",
+        "created_at": "2023-10-02T18:57:04.420Z",
+        "updated_at": "2023-10-02T11:35:43.326Z"
+      },
+      {
+        "id": "fd20178b-b417-40e0-a90f-3248ed17fb34",
+        "title": "Pulp Fiction",
+        "director": "David Fincher",
+        "genre": "Drama",
+        "duration": 89976,
+        "rating": 74424,
+        "release_date": "2023-10-02T23:34:13.569Z",
+        "created_at": "2023-10-02T23:16:27.570Z",
+        "updated_at": "2023-10-03T02:40:16.083Z"
+      },
+      {
+        "id": "ec19c2fd-53b9-41b5-ad67-419f3cf76f5c",
+        "title": "Fight Club",
+        "director": "Martin Scorsese",
+        "genre": "Crime",
+        "duration": 71636,
+        "rating": 62032,
+        "release_date": "2023-10-03T04:39:24.692Z",
+        "created_at": "2023-10-02T12:01:18.986Z",
+        "updated_at": "2023-10-02T06:40:11.253Z"
+      },
+      {
+        "id": "8b639cf5-6e19-41b6-ad7c-c11b53f22584",
+        "title": "The Shawshank Redemption",
+        "director": "Steven Spielberg",
+        "genre": "Comedy",
+        "duration": 15005,
+        "rating": 36375,
+        "release_date": "2023-10-02T15:47:58.946Z",
+        "created_at": "2023-10-02T12:53:27.053Z",
+        "updated_at": "2023-10-02T06:39:50.392Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "25481318-d2c2-44a4-82c1-a8f5ae85d482",
+        "show_time": "2023-10-02T17:53:39.222Z",
+        "seat_price": 66100,
+        "available_seats": 60370,
+        "created_at": "2023-10-02T10:21:30.914Z",
+        "updated_at": "2023-10-02T06:18:29.203Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "ec19c2fd-53b9-41b5-ad67-419f3cf76f5c"
+      },
+      {
+        "id": "04ea1637-2fcf-4ccc-ab0e-32c389a4d0de",
+        "show_time": "2023-10-02T22:45:10.127Z",
+        "seat_price": 23791,
+        "available_seats": 29656,
+        "created_at": "2023-10-02T14:35:06.495Z",
+        "updated_at": "2023-10-02T15:16:51.251Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "00ddfe06-e34c-47db-88b8-b62531083d22"
+      },
+      {
+        "id": "f13334b9-6a2c-4bc9-97ad-00ce77561355",
+        "show_time": "2023-10-02T22:05:39.386Z",
+        "seat_price": 15915,
+        "available_seats": 86203,
+        "created_at": "2023-10-02T18:23:18.391Z",
+        "updated_at": "2023-10-03T01:28:00.759Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "ec19c2fd-53b9-41b5-ad67-419f3cf76f5c"
+      },
+      {
+        "id": "a3b97e56-fc53-4dc9-a08a-42bd89bd7353",
+        "show_time": "2023-10-02T09:07:23.678Z",
+        "seat_price": 97527,
+        "available_seats": 32565,
+        "created_at": "2023-10-02T08:48:45.573Z",
+        "updated_at": "2023-10-02T13:30:22.451Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "ec19c2fd-53b9-41b5-ad67-419f3cf76f5c"
+      },
+      {
+        "id": "1585ac29-d92e-4c9d-b1dd-472c59802acb",
+        "show_time": "2023-10-02T06:48:52.651Z",
+        "seat_price": 22263,
+        "available_seats": 61987,
+        "created_at": "2023-10-02T06:23:12.759Z",
+        "updated_at": "2023-10-02T12:10:17.137Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "ec19c2fd-53b9-41b5-ad67-419f3cf76f5c"
+      }
+    ],
+    "booking": [
+      {
+        "id": "576fae34-40f4-4f38-b15e-ee1745908890",
+        "booking_time": "2023-10-02T14:02:45.994Z",
+        "total_seats": 42644,
+        "total_price": 32583,
+        "created_at": "2023-10-02T21:37:37.410Z",
+        "updated_at": "2023-10-03T03:20:02.440Z",
+        "show_id": "f13334b9-6a2c-4bc9-97ad-00ce77561355",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "900030d8-6a14-49bd-b422-3efb4bbaca37",
+        "booking_time": "2023-10-03T03:49:32.784Z",
+        "total_seats": 39498,
+        "total_price": 70501,
+        "created_at": "2023-10-02T18:59:02.032Z",
+        "updated_at": "2023-10-03T01:50:57.285Z",
+        "show_id": "f13334b9-6a2c-4bc9-97ad-00ce77561355",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0aaeb426-aeba-48b1-a7bc-f1fe4c884074",
+        "booking_time": "2023-10-02T20:16:50.963Z",
+        "total_seats": 7831,
+        "total_price": 20664,
+        "created_at": "2023-10-03T02:02:26.216Z",
+        "updated_at": "2023-10-02T11:56:36.565Z",
+        "show_id": "a3b97e56-fc53-4dc9-a08a-42bd89bd7353",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f192396-515d-4782-a227-ded4832a6d51",
+        "booking_time": "2023-10-02T10:05:16.112Z",
+        "total_seats": 579,
+        "total_price": 97396,
+        "created_at": "2023-10-02T05:02:02.488Z",
+        "updated_at": "2023-10-03T02:06:26.191Z",
+        "show_id": "25481318-d2c2-44a4-82c1-a8f5ae85d482",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d43a815a-58e5-40a1-9bf0-b61bb49b31bf",
+        "booking_time": "2023-10-02T04:59:32.033Z",
+        "total_seats": 52972,
+        "total_price": 15539,
+        "created_at": "2023-10-02T21:24:20.628Z",
+        "updated_at": "2023-10-03T00:33:32.015Z",
+        "show_id": "1585ac29-d92e-4c9d-b1dd-472c59802acb",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "57ae0c14-f4be-4874-9f68-3e1807d027ce",
+        "seat_number": 7822,
+        "price": 12796,
+        "created_at": "2023-10-02T20:23:12.144Z",
+        "updated_at": "2023-10-02T17:45:21.051Z",
+        "booking_id": "d43a815a-58e5-40a1-9bf0-b61bb49b31bf"
+      },
+      {
+        "id": "4895bf94-a4ed-4937-a958-4fcd0a2901d8",
+        "seat_number": 52974,
+        "price": 34337,
+        "created_at": "2023-10-02T22:35:06.539Z",
+        "updated_at": "2023-10-02T15:43:26.337Z",
+        "booking_id": "d43a815a-58e5-40a1-9bf0-b61bb49b31bf"
+      },
+      {
+        "id": "b979720a-2336-4619-aa7f-c573e3975c2d",
+        "seat_number": 74881,
+        "price": 75611,
+        "created_at": "2023-10-02T22:22:53.714Z",
+        "updated_at": "2023-10-02T15:36:17.987Z",
+        "booking_id": "0aaeb426-aeba-48b1-a7bc-f1fe4c884074"
+      },
+      {
+        "id": "063fe7d4-74a4-496f-964f-84d2de8bd08f",
+        "seat_number": 82364,
+        "price": 73875,
+        "created_at": "2023-10-02T14:56:55.441Z",
+        "updated_at": "2023-10-02T10:01:35.435Z",
+        "booking_id": "900030d8-6a14-49bd-b422-3efb4bbaca37"
+      },
+      {
+        "id": "534d8297-dead-424b-920c-183b19396dc3",
+        "seat_number": 1079,
+        "price": 94411,
+        "created_at": "2023-10-02T16:00:50.012Z",
+        "updated_at": "2023-10-02T18:44:30.095Z",
+        "booking_id": "0f192396-515d-4782-a227-ded4832a6d51"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5ff899c9-eac6-49be-8f39-f081e022e123",
+        "email": "Anthony31@roq.tech",
+        "firstName": "Lelia",
+        "lastName": "Christiansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/79916014",
+        "tenantId": null
+      },
+      {
+        "reference": "71cd27f4-f959-43db-8fdf-c9cc8b78a654",
+        "email": "Devyn.Raynor26@roq.tech",
+        "firstName": "Eloy",
+        "lastName": "Abshire",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96155971",
+        "tenantId": null
+      },
+      {
+        "reference": "b6ba09ea-90b3-4636-a048-d107051c4cee",
+        "email": "Libbie_Hartmann42@roq.tech",
+        "firstName": "Ike",
+        "lastName": "Auer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1173.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "550d7f8f-0759-4497-b15d-490c00931f62",
+        "email": "Rodrick27@roq.tech",
+        "firstName": "Fabian",
+        "lastName": "Beatty",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96333715",
+        "tenantId": null
+      },
+      {
+        "reference": "250637c8-3359-4929-a2d5-df282a4f79e2",
+        "email": "Jaunita17@roq.tech",
+        "firstName": "Christiana",
+        "lastName": "Powlowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69727163",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "3965fd85-3b9e-49f8-86e7-c9598f025d70",
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "genre": "Science Fiction",
+        "duration": 54267,
+        "rating": 32175,
+        "release_date": "2023-10-02T22:44:29.026Z",
+        "created_at": "2023-10-02T07:19:07.691Z",
+        "updated_at": "2023-10-02T22:53:18.966Z"
+      },
+      {
+        "id": "be18c715-2a73-4e9f-8a0f-e5dde026777f",
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "genre": "Drama",
+        "duration": 29738,
+        "rating": 19697,
+        "release_date": "2023-10-03T00:29:32.946Z",
+        "created_at": "2023-10-02T23:53:38.157Z",
+        "updated_at": "2023-10-02T13:56:33.383Z"
+      },
+      {
+        "id": "c403ef52-4cd4-4220-ba33-0c8e3f982c27",
+        "title": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "genre": "Crime",
+        "duration": 23063,
+        "rating": 77848,
+        "release_date": "2023-10-03T04:21:23.830Z",
+        "created_at": "2023-10-03T02:38:58.923Z",
+        "updated_at": "2023-10-02T13:08:05.012Z"
+      },
+      {
+        "id": "7885dd35-afa1-4104-b53b-c5015f9e896a",
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "duration": 99216,
+        "rating": 28961,
+        "release_date": "2023-10-02T07:53:11.071Z",
+        "created_at": "2023-10-02T19:55:41.646Z",
+        "updated_at": "2023-10-02T18:28:14.849Z"
+      },
+      {
+        "id": "1a51bdd9-980b-4cfa-99ff-99cb2eaebf07",
+        "title": "Fight Club",
+        "director": "David Fincher",
+        "genre": "Thriller",
+        "duration": 13154,
+        "rating": 34803,
+        "release_date": "2023-10-02T12:30:40.691Z",
+        "created_at": "2023-10-02T10:23:22.851Z",
+        "updated_at": "2023-10-02T15:32:52.050Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "f67e9ef6-744e-42fe-bebd-63e2c380efc8",
+        "show_time": "2023-10-02T07:59:08.689Z",
+        "seat_price": 29478,
+        "available_seats": 15357,
+        "created_at": "2023-10-02T22:42:35.136Z",
+        "updated_at": "2023-10-02T23:19:45.934Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "1a51bdd9-980b-4cfa-99ff-99cb2eaebf07"
+      },
+      {
+        "id": "216d5d75-70b8-4b5a-9ac0-94e91730d4ec",
+        "show_time": "2023-10-02T07:24:19.563Z",
+        "seat_price": 19935,
+        "available_seats": 81913,
+        "created_at": "2023-10-02T06:01:21.789Z",
+        "updated_at": "2023-10-03T03:08:37.652Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "1a51bdd9-980b-4cfa-99ff-99cb2eaebf07"
+      },
+      {
+        "id": "8b2a5645-1af2-48d3-93e4-27470fb733cf",
+        "show_time": "2023-10-02T21:14:51.025Z",
+        "seat_price": 46215,
+        "available_seats": 36145,
+        "created_at": "2023-10-03T04:53:30.312Z",
+        "updated_at": "2023-10-02T11:23:53.850Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "3965fd85-3b9e-49f8-86e7-c9598f025d70"
+      },
+      {
+        "id": "9300456a-7887-48eb-9379-b498425edde0",
+        "show_time": "2023-10-02T07:47:44.618Z",
+        "seat_price": 76763,
+        "available_seats": 91335,
+        "created_at": "2023-10-02T13:16:31.088Z",
+        "updated_at": "2023-10-02T18:38:31.925Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "be18c715-2a73-4e9f-8a0f-e5dde026777f"
+      },
+      {
+        "id": "45dcc7a1-be97-4195-ab78-db5e4aac8ca7",
+        "show_time": "2023-10-02T18:51:58.837Z",
+        "seat_price": 83470,
+        "available_seats": 97881,
+        "created_at": "2023-10-02T16:47:14.644Z",
+        "updated_at": "2023-10-03T01:21:36.719Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "3965fd85-3b9e-49f8-86e7-c9598f025d70"
+      }
+    ],
+    "booking": [
+      {
+        "id": "250ea797-78a3-4d49-853b-e77d74c90c39",
+        "booking_time": "2023-10-02T05:08:48.769Z",
+        "total_seats": 23042,
+        "total_price": 29503,
+        "created_at": "2023-10-02T16:33:35.162Z",
+        "updated_at": "2023-10-02T07:31:27.435Z",
+        "show_id": "f67e9ef6-744e-42fe-bebd-63e2c380efc8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5379488f-d17d-45ad-a293-a19a4dc0a036",
+        "booking_time": "2023-10-03T00:54:51.084Z",
+        "total_seats": 50469,
+        "total_price": 67880,
+        "created_at": "2023-10-02T21:17:38.442Z",
+        "updated_at": "2023-10-02T21:05:05.121Z",
+        "show_id": "9300456a-7887-48eb-9379-b498425edde0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9fc6159a-1287-4729-98ef-6949e9960e95",
+        "booking_time": "2023-10-03T01:11:02.296Z",
+        "total_seats": 63918,
+        "total_price": 67160,
+        "created_at": "2023-10-02T08:12:44.088Z",
+        "updated_at": "2023-10-02T17:18:23.339Z",
+        "show_id": "45dcc7a1-be97-4195-ab78-db5e4aac8ca7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed96f1ec-ff2c-4104-8a93-c38475e515aa",
+        "booking_time": "2023-10-02T17:03:46.394Z",
+        "total_seats": 42270,
+        "total_price": 28244,
+        "created_at": "2023-10-02T23:32:56.796Z",
+        "updated_at": "2023-10-03T00:19:58.392Z",
+        "show_id": "f67e9ef6-744e-42fe-bebd-63e2c380efc8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "495b7265-7253-4a21-b9f9-259c826299b8",
+        "booking_time": "2023-10-02T09:30:24.065Z",
+        "total_seats": 8873,
+        "total_price": 66362,
+        "created_at": "2023-10-02T20:28:29.995Z",
+        "updated_at": "2023-10-02T09:05:23.326Z",
+        "show_id": "f67e9ef6-744e-42fe-bebd-63e2c380efc8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "a564dd62-35d2-46b4-9d56-74212f92d54c",
+        "seat_number": 8924,
+        "price": 60518,
+        "created_at": "2023-10-02T23:34:47.953Z",
+        "updated_at": "2023-10-02T21:41:50.249Z",
+        "booking_id": "250ea797-78a3-4d49-853b-e77d74c90c39"
+      },
+      {
+        "id": "15b38454-9ffe-494f-8912-81633a302976",
+        "seat_number": 37699,
+        "price": 81555,
+        "created_at": "2023-10-02T16:38:48.857Z",
+        "updated_at": "2023-10-02T22:57:11.783Z",
+        "booking_id": "5379488f-d17d-45ad-a293-a19a4dc0a036"
+      },
+      {
+        "id": "fdb11b62-94d0-4bbb-933c-40c7e402da38",
+        "seat_number": 76373,
+        "price": 96820,
+        "created_at": "2023-10-02T14:45:55.763Z",
+        "updated_at": "2023-10-02T13:18:35.229Z",
+        "booking_id": "9fc6159a-1287-4729-98ef-6949e9960e95"
+      },
+      {
+        "id": "bb7e6a77-1849-422d-9026-8ebef1e82731",
+        "seat_number": 71177,
+        "price": 66467,
+        "created_at": "2023-10-02T05:45:47.782Z",
+        "updated_at": "2023-10-03T03:19:50.030Z",
+        "booking_id": "9fc6159a-1287-4729-98ef-6949e9960e95"
+      },
+      {
+        "id": "fd26b49d-1c22-47a1-93c9-9f97ac730099",
+        "seat_number": 72050,
+        "price": 18909,
+        "created_at": "2023-10-03T01:18:55.479Z",
+        "updated_at": "2023-10-02T20:23:30.522Z",
+        "booking_id": "250ea797-78a3-4d49-853b-e77d74c90c39"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "e4b75359-7b6c-4250-9eb3-b4594364e058",
+        "email": "Grayson_Pollich@roq.tech",
+        "firstName": "Christophe",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/717.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8728de68-dad2-4f0e-b3a8-2f795ed2fc85",
+        "email": "Nicklaus58@roq.tech",
+        "firstName": "Linnea",
+        "lastName": "Bailey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/548.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2693b7a9-2e2c-4127-b882-2bf7ff785e23",
+        "email": "Peter.Braun29@roq.tech",
+        "firstName": "Addison",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/6.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "626f8a9c-a56a-4257-8d4a-df8d74cabe98",
+        "email": "Melissa_Sauer@roq.tech",
+        "firstName": "Annamae",
+        "lastName": "Greenfelder",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39291332",
+        "tenantId": null
+      },
+      {
+        "reference": "73010493-bdee-4182-8d24-cfe923182897",
+        "email": "Laurel32@roq.tech",
+        "firstName": "Lysanne",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1036.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "f82f43dc-0088-4803-b13e-cccc4587af6d",
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "genre": "Sci-Fi",
+        "duration": 28747,
+        "rating": 93132,
+        "release_date": "2023-10-02T16:37:37.469Z",
+        "created_at": "2023-10-02T08:38:49.592Z",
+        "updated_at": "2023-10-03T02:50:42.583Z"
+      },
+      {
+        "id": "ad8c83de-407c-4b02-9c21-e15a14903568",
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "genre": "Drama",
+        "duration": 3089,
+        "rating": 51321,
+        "release_date": "2023-10-02T21:00:34.164Z",
+        "created_at": "2023-10-02T07:38:56.094Z",
+        "updated_at": "2023-10-02T07:50:24.683Z"
+      },
+      {
+        "id": "916f30b1-1ed2-4b6b-af1f-f3b0cce9e41c",
+        "title": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "genre": "Crime",
+        "duration": 55182,
+        "rating": 8977,
+        "release_date": "2023-10-02T17:14:31.392Z",
+        "created_at": "2023-10-02T09:26:20.672Z",
+        "updated_at": "2023-10-02T15:28:54.526Z"
+      },
+      {
+        "id": "4661ab0d-e128-4bbe-bbe7-2eb58ae8ddd4",
+        "title": "Fight Club",
+        "director": "David Fincher",
+        "genre": "Thriller",
+        "duration": 32814,
+        "rating": 93117,
+        "release_date": "2023-10-02T17:24:14.959Z",
+        "created_at": "2023-10-02T19:37:58.642Z",
+        "updated_at": "2023-10-02T13:00:15.735Z"
+      },
+      {
+        "id": "e3bc6a87-0725-417a-9cd5-6f2a8bc97b65",
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "duration": 41081,
+        "rating": 75806,
+        "release_date": "2023-10-02T21:18:39.003Z",
+        "created_at": "2023-10-02T14:24:15.314Z",
+        "updated_at": "2023-10-02T12:07:10.599Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "0e7225d0-7a44-4852-ab5d-5daa20de78ec",
+        "show_time": "2023-10-02T12:57:43.763Z",
+        "seat_price": 83987,
+        "available_seats": 58565,
+        "created_at": "2023-10-02T17:34:03.757Z",
+        "updated_at": "2023-10-02T09:54:58.795Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "e3bc6a87-0725-417a-9cd5-6f2a8bc97b65"
+      },
+      {
+        "id": "2366ccbb-10a8-4ff8-94ab-a87a2284dec8",
+        "show_time": "2023-10-03T04:41:18.701Z",
+        "seat_price": 33963,
+        "available_seats": 11679,
+        "created_at": "2023-10-03T01:05:49.107Z",
+        "updated_at": "2023-10-02T10:41:06.802Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "4661ab0d-e128-4bbe-bbe7-2eb58ae8ddd4"
+      },
+      {
+        "id": "fb37d8c0-b429-4ec7-abc9-fa35a27a0892",
+        "show_time": "2023-10-03T02:28:47.979Z",
+        "seat_price": 28733,
+        "available_seats": 52875,
+        "created_at": "2023-10-02T21:39:15.549Z",
+        "updated_at": "2023-10-03T02:43:07.602Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "ad8c83de-407c-4b02-9c21-e15a14903568"
+      },
+      {
+        "id": "a17893d1-979c-4c01-af73-8be00b4d8690",
+        "show_time": "2023-10-02T08:01:43.634Z",
+        "seat_price": 84674,
+        "available_seats": 1867,
+        "created_at": "2023-10-03T01:03:46.060Z",
+        "updated_at": "2023-10-02T09:02:51.304Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "ad8c83de-407c-4b02-9c21-e15a14903568"
+      },
+      {
+        "id": "893f77af-296f-448a-bce4-aea0ff30c398",
+        "show_time": "2023-10-02T12:41:30.852Z",
+        "seat_price": 61083,
+        "available_seats": 93069,
+        "created_at": "2023-10-02T06:58:52.044Z",
+        "updated_at": "2023-10-02T16:33:16.171Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "916f30b1-1ed2-4b6b-af1f-f3b0cce9e41c"
+      }
+    ],
+    "booking": [
+      {
+        "id": "a756081a-86b4-4f27-bd06-6587701fa07a",
+        "booking_time": "2023-10-02T13:20:44.906Z",
+        "total_seats": 64322,
+        "total_price": 27919,
+        "created_at": "2023-10-02T06:07:07.949Z",
+        "updated_at": "2023-10-03T03:10:30.699Z",
+        "show_id": "0e7225d0-7a44-4852-ab5d-5daa20de78ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "65134c68-fdef-44da-90b7-6700bdbf3e2d",
+        "booking_time": "2023-10-03T00:52:15.746Z",
+        "total_seats": 12725,
+        "total_price": 4700,
+        "created_at": "2023-10-02T19:29:02.566Z",
+        "updated_at": "2023-10-02T18:49:02.414Z",
+        "show_id": "0e7225d0-7a44-4852-ab5d-5daa20de78ec",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "46c97351-7f24-4d20-880f-d7a48996f6f2",
+        "booking_time": "2023-10-03T04:16:38.383Z",
+        "total_seats": 74988,
+        "total_price": 11551,
+        "created_at": "2023-10-02T22:58:42.452Z",
+        "updated_at": "2023-10-02T05:02:48.479Z",
+        "show_id": "893f77af-296f-448a-bce4-aea0ff30c398",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7322d473-41e6-48a1-8b02-a04da41597e3",
+        "booking_time": "2023-10-02T21:32:16.796Z",
+        "total_seats": 67834,
+        "total_price": 1956,
+        "created_at": "2023-10-02T09:20:44.024Z",
+        "updated_at": "2023-10-02T17:36:24.787Z",
+        "show_id": "a17893d1-979c-4c01-af73-8be00b4d8690",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca5a0905-cb3c-46db-a6bc-5905129b162b",
+        "booking_time": "2023-10-02T15:45:10.624Z",
+        "total_seats": 67216,
+        "total_price": 26334,
+        "created_at": "2023-10-03T01:39:19.659Z",
+        "updated_at": "2023-10-02T23:28:55.662Z",
+        "show_id": "fb37d8c0-b429-4ec7-abc9-fa35a27a0892",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "3cbd065f-6b83-49bb-b074-483de4661e9c",
+        "seat_number": 55417,
+        "price": 86518,
+        "created_at": "2023-10-02T16:43:43.565Z",
+        "updated_at": "2023-10-02T12:01:08.083Z",
+        "booking_id": "7322d473-41e6-48a1-8b02-a04da41597e3"
+      },
+      {
+        "id": "ea6009f9-2c37-479e-9981-ca12f3440b99",
+        "seat_number": 12126,
+        "price": 75859,
+        "created_at": "2023-10-02T17:23:43.773Z",
+        "updated_at": "2023-10-02T12:43:19.484Z",
+        "booking_id": "a756081a-86b4-4f27-bd06-6587701fa07a"
+      },
+      {
+        "id": "640ccf98-d587-4ff1-a06c-84e699771ec1",
+        "seat_number": 60906,
+        "price": 79216,
+        "created_at": "2023-10-02T11:48:39.639Z",
+        "updated_at": "2023-10-02T16:26:42.686Z",
+        "booking_id": "65134c68-fdef-44da-90b7-6700bdbf3e2d"
+      },
+      {
+        "id": "a05171f3-2235-4c36-aa57-4acc9a14ad2d",
+        "seat_number": 13850,
+        "price": 18456,
+        "created_at": "2023-10-02T09:23:23.105Z",
+        "updated_at": "2023-10-02T20:26:14.575Z",
+        "booking_id": "46c97351-7f24-4d20-880f-d7a48996f6f2"
+      },
+      {
+        "id": "6292a05c-8c4c-4314-ab84-c5d1eabeb485",
+        "seat_number": 59996,
+        "price": 24169,
+        "created_at": "2023-10-02T13:43:54.083Z",
+        "updated_at": "2023-10-02T10:49:35.041Z",
+        "booking_id": "46c97351-7f24-4d20-880f-d7a48996f6f2"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "47a2ca87-509f-4a58-8576-2807b67a7b80",
+        "email": "Natalie98@roq.tech",
+        "firstName": "Justine",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/92132273",
+        "tenantId": null
+      },
+      {
+        "reference": "99e01975-f22d-4c53-a793-a6f443ff7eb9",
+        "email": "Maegan15@roq.tech",
+        "firstName": "Audreanne",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/309.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "fcd8b30d-6748-445a-9273-7a1f132862fc",
+        "email": "Jordi.Haag@roq.tech",
+        "firstName": "Elouise",
+        "lastName": "Gutmann",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/571.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e20821e6-c352-423e-a9f0-07bb2834eae3",
+        "email": "Percival_Kuhn99@roq.tech",
+        "firstName": "Mazie",
+        "lastName": "Feil-Quigley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/132.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "121f31f5-8603-47d0-945e-45b5075ae563",
+        "email": "Harry_Hoppe9@roq.tech",
+        "firstName": "Vicente",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/559.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "754bbfc4-b40f-49f9-8f09-22c6ec558aee",
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "genre": "Drama",
+        "duration": 62317,
+        "rating": 82034,
+        "release_date": "2023-10-02T14:46:52.278Z",
+        "created_at": "2023-10-02T16:06:20.098Z",
+        "updated_at": "2023-10-02T21:09:29.991Z"
+      },
+      {
+        "id": "9b340390-39ab-40f7-9ea2-96738a8068f2",
+        "title": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "genre": "Crime",
+        "duration": 38042,
+        "rating": 73467,
+        "release_date": "2023-10-03T00:30:32.961Z",
+        "created_at": "2023-10-02T06:20:12.399Z",
+        "updated_at": "2023-10-02T11:30:58.516Z"
+      },
+      {
+        "id": "57eb2da7-16c3-4e98-8b19-50ac197d0bd4",
+        "title": "The Godfather",
+        "director": "Francis Ford Coppola",
+        "genre": "Action",
+        "duration": 56146,
+        "rating": 5373,
+        "release_date": "2023-10-02T06:54:32.666Z",
+        "created_at": "2023-10-03T00:00:58.936Z",
+        "updated_at": "2023-10-02T10:29:18.577Z"
+      },
+      {
+        "id": "78e47440-098f-4ba0-b20f-15ae73c3346f",
+        "title": "Fight Club",
+        "director": "David Fincher",
+        "genre": "Thriller",
+        "duration": 88453,
+        "rating": 26009,
+        "release_date": "2023-10-02T13:55:05.742Z",
+        "created_at": "2023-10-03T01:42:10.661Z",
+        "updated_at": "2023-10-02T23:53:16.957Z"
+      },
+      {
+        "id": "f0583c6b-8595-4af2-854c-dae4cbf48daf",
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "genre": "Sci-Fi",
+        "duration": 66201,
+        "rating": 66402,
+        "release_date": "2023-10-03T03:21:52.161Z",
+        "created_at": "2023-10-02T19:07:20.819Z",
+        "updated_at": "2023-10-02T19:45:19.775Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "322b0315-9dbf-441c-9fd1-aaac61aa6bc2",
+        "show_time": "2023-10-02T21:17:40.512Z",
+        "seat_price": 50106,
+        "available_seats": 13276,
+        "created_at": "2023-10-03T02:20:16.761Z",
+        "updated_at": "2023-10-02T23:59:20.005Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "754bbfc4-b40f-49f9-8f09-22c6ec558aee"
+      },
+      {
+        "id": "3d604d17-8653-495b-be47-78f749d70061",
+        "show_time": "2023-10-02T09:44:37.140Z",
+        "seat_price": 50157,
+        "available_seats": 92877,
+        "created_at": "2023-10-02T07:31:34.114Z",
+        "updated_at": "2023-10-03T00:46:41.997Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "f0583c6b-8595-4af2-854c-dae4cbf48daf"
+      },
+      {
+        "id": "c8f3952d-bd7f-41be-81f6-a7b68ea9eef6",
+        "show_time": "2023-10-02T20:53:33.624Z",
+        "seat_price": 93683,
+        "available_seats": 69466,
+        "created_at": "2023-10-02T05:05:34.145Z",
+        "updated_at": "2023-10-02T05:23:52.764Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "78e47440-098f-4ba0-b20f-15ae73c3346f"
+      },
+      {
+        "id": "222a501b-c0b4-4148-90ac-c18ca35b26a4",
+        "show_time": "2023-10-02T20:52:36.093Z",
+        "seat_price": 1945,
+        "available_seats": 68112,
+        "created_at": "2023-10-02T17:35:58.219Z",
+        "updated_at": "2023-10-02T19:34:59.533Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "78e47440-098f-4ba0-b20f-15ae73c3346f"
+      },
+      {
+        "id": "8652439a-60bd-4158-9a5e-480867d4d589",
+        "show_time": "2023-10-02T18:35:35.010Z",
+        "seat_price": 59692,
+        "available_seats": 95405,
+        "created_at": "2023-10-02T10:29:41.547Z",
+        "updated_at": "2023-10-02T07:33:31.855Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "78e47440-098f-4ba0-b20f-15ae73c3346f"
+      }
+    ],
+    "booking": [
+      {
+        "id": "95a0f734-e008-4c91-bab7-a8c99811848b",
+        "booking_time": "2023-10-03T00:43:25.469Z",
+        "total_seats": 72793,
+        "total_price": 90266,
+        "created_at": "2023-10-02T15:38:46.057Z",
+        "updated_at": "2023-10-02T17:25:46.406Z",
+        "show_id": "8652439a-60bd-4158-9a5e-480867d4d589",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10567abe-0141-47ba-a9ff-1d9c204afc32",
+        "booking_time": "2023-10-02T17:46:37.378Z",
+        "total_seats": 83894,
+        "total_price": 82995,
+        "created_at": "2023-10-02T14:29:11.481Z",
+        "updated_at": "2023-10-02T11:48:16.595Z",
+        "show_id": "c8f3952d-bd7f-41be-81f6-a7b68ea9eef6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8194562a-4a4c-455b-a4d1-9329a18dfe8d",
+        "booking_time": "2023-10-02T20:23:02.665Z",
+        "total_seats": 1091,
+        "total_price": 35227,
+        "created_at": "2023-10-02T12:20:09.049Z",
+        "updated_at": "2023-10-02T10:58:03.568Z",
+        "show_id": "c8f3952d-bd7f-41be-81f6-a7b68ea9eef6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d06bdd80-7af6-43f7-9f9d-f9d10663ea25",
+        "booking_time": "2023-10-02T23:27:57.199Z",
+        "total_seats": 87849,
+        "total_price": 2829,
+        "created_at": "2023-10-02T16:11:27.818Z",
+        "updated_at": "2023-10-02T05:08:52.730Z",
+        "show_id": "3d604d17-8653-495b-be47-78f749d70061",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fd2b9c2a-dd0a-4105-ad8f-9c42fab43a4d",
+        "booking_time": "2023-10-03T04:26:16.252Z",
+        "total_seats": 84891,
+        "total_price": 84378,
+        "created_at": "2023-10-02T12:45:16.883Z",
+        "updated_at": "2023-10-03T02:48:21.107Z",
+        "show_id": "c8f3952d-bd7f-41be-81f6-a7b68ea9eef6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "72823bf5-4be2-4a6c-8cac-a69f4e2a145f",
+        "seat_number": 75568,
+        "price": 48546,
+        "created_at": "2023-10-02T13:49:18.596Z",
+        "updated_at": "2023-10-02T17:40:49.538Z",
+        "booking_id": "95a0f734-e008-4c91-bab7-a8c99811848b"
+      },
+      {
+        "id": "1e54a496-89a9-4088-a517-d79b3f8e4347",
+        "seat_number": 75120,
+        "price": 64724,
+        "created_at": "2023-10-02T20:59:48.881Z",
+        "updated_at": "2023-10-02T23:05:02.628Z",
+        "booking_id": "8194562a-4a4c-455b-a4d1-9329a18dfe8d"
+      },
+      {
+        "id": "18344cb9-1162-4d9a-af1b-08cef1e0ab47",
+        "seat_number": 51730,
+        "price": 20777,
+        "created_at": "2023-10-02T20:45:13.512Z",
+        "updated_at": "2023-10-03T03:51:50.046Z",
+        "booking_id": "fd2b9c2a-dd0a-4105-ad8f-9c42fab43a4d"
+      },
+      {
+        "id": "d7f15022-0ae8-4ac8-a209-a389616493c7",
+        "seat_number": 87492,
+        "price": 19695,
+        "created_at": "2023-10-02T14:59:20.983Z",
+        "updated_at": "2023-10-02T10:17:40.779Z",
+        "booking_id": "d06bdd80-7af6-43f7-9f9d-f9d10663ea25"
+      },
+      {
+        "id": "f2182f87-a18e-445c-a7c8-20f871c57551",
+        "seat_number": 81624,
+        "price": 97145,
+        "created_at": "2023-10-02T14:23:43.571Z",
+        "updated_at": "2023-10-03T04:32:17.087Z",
+        "booking_id": "d06bdd80-7af6-43f7-9f9d-f9d10663ea25"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "36ce4b5b-8572-43d3-bd3e-9ce09c8321eb",
+        "email": "Odessa.Hickle@roq.tech",
+        "firstName": "Jillian",
+        "lastName": "Barrows",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/781.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1210c2e4-ffff-46d5-b03d-a2c80fabd984",
+        "email": "Letitia.Wintheiser@roq.tech",
+        "firstName": "Kenya",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/798.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a73800a0-6143-4155-a9d6-b482e065a092",
+        "email": "Jean15@roq.tech",
+        "firstName": "Abdul",
+        "lastName": "Lehner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/699.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5ff837ad-1737-4c16-8fa5-da971c6a1dc8",
+        "email": "Larue.Kshlerin21@roq.tech",
+        "firstName": "Tamia",
+        "lastName": "Predovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/467.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "afdd5164-7065-4211-b590-eee9c64aa967",
+        "email": "Ramon_McLaughlin@roq.tech",
+        "firstName": "Estella",
+        "lastName": "Ward",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/505.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "eda0c94f-ccf3-4de1-bfd2-6dc9d23b7b88",
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "duration": 3391,
+        "rating": 16206,
+        "release_date": "2023-10-02T10:53:44.038Z",
+        "created_at": "2023-10-02T13:37:15.961Z",
+        "updated_at": "2023-10-02T15:09:33.456Z"
+      },
+      {
+        "id": "b4076dff-d6df-48e0-8bee-9e54246009fb",
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "genre": "Drama",
+        "duration": 4605,
+        "rating": 45321,
+        "release_date": "2023-10-02T05:47:13.167Z",
+        "created_at": "2023-10-03T04:32:43.679Z",
+        "updated_at": "2023-10-02T12:21:51.597Z"
+      },
+      {
+        "id": "404acacd-22ac-4e93-82bc-006c96f0a62e",
+        "title": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "genre": "Crime",
+        "duration": 12668,
+        "rating": 26637,
+        "release_date": "2023-10-03T01:19:24.221Z",
+        "created_at": "2023-10-02T13:29:56.315Z",
+        "updated_at": "2023-10-02T21:39:13.638Z"
+      },
+      {
+        "id": "c877bfbe-e141-4510-b1fb-7f268047259b",
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "genre": "Thriller",
+        "duration": 64310,
+        "rating": 65873,
+        "release_date": "2023-10-02T07:51:03.221Z",
+        "created_at": "2023-10-02T21:59:29.094Z",
+        "updated_at": "2023-10-02T11:18:38.283Z"
+      },
+      {
+        "id": "20ed95b1-47ad-4a2a-9034-0ac4dabb6cc0",
+        "title": "Fight Club",
+        "director": "David Fincher",
+        "genre": "Mystery",
+        "duration": 36607,
+        "rating": 32908,
+        "release_date": "2023-10-02T05:53:51.445Z",
+        "created_at": "2023-10-02T07:13:39.396Z",
+        "updated_at": "2023-10-02T06:28:04.727Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "9e4a1a17-c88a-436a-a768-aa5a18720cff",
+        "show_time": "2023-10-02T21:01:47.881Z",
+        "seat_price": 40466,
+        "available_seats": 72099,
+        "created_at": "2023-10-02T14:56:50.294Z",
+        "updated_at": "2023-10-02T23:41:56.775Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "b4076dff-d6df-48e0-8bee-9e54246009fb"
+      },
+      {
+        "id": "a33ea7e7-b89c-4876-a658-7a6f27eaef72",
+        "show_time": "2023-10-02T05:46:54.913Z",
+        "seat_price": 88569,
+        "available_seats": 24859,
+        "created_at": "2023-10-02T14:28:18.362Z",
+        "updated_at": "2023-10-02T06:27:49.113Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "20ed95b1-47ad-4a2a-9034-0ac4dabb6cc0"
+      },
+      {
+        "id": "9ac600d3-ff95-4ef7-b28d-65ba946a4e68",
+        "show_time": "2023-10-02T23:32:57.000Z",
+        "seat_price": 95562,
+        "available_seats": 23424,
+        "created_at": "2023-10-02T19:37:51.674Z",
+        "updated_at": "2023-10-03T04:34:13.072Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "c877bfbe-e141-4510-b1fb-7f268047259b"
+      },
+      {
+        "id": "e1a1d1b8-767e-434c-97ea-127d4e5409d4",
+        "show_time": "2023-10-02T05:49:58.678Z",
+        "seat_price": 2550,
+        "available_seats": 98081,
+        "created_at": "2023-10-02T22:58:32.288Z",
+        "updated_at": "2023-10-02T23:22:18.004Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "404acacd-22ac-4e93-82bc-006c96f0a62e"
+      },
+      {
+        "id": "ab7d22ed-c5cf-4ba7-8067-2944f8d80aab",
+        "show_time": "2023-10-02T07:08:59.193Z",
+        "seat_price": 96666,
+        "available_seats": 24237,
+        "created_at": "2023-10-02T07:42:24.151Z",
+        "updated_at": "2023-10-02T17:30:46.665Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "c877bfbe-e141-4510-b1fb-7f268047259b"
+      }
+    ],
+    "booking": [
+      {
+        "id": "859d646f-a605-4b87-a990-d91dcd133e58",
+        "booking_time": "2023-10-02T16:51:02.812Z",
+        "total_seats": 73839,
+        "total_price": 30339,
+        "created_at": "2023-10-02T13:57:11.779Z",
+        "updated_at": "2023-10-02T14:06:22.218Z",
+        "show_id": "a33ea7e7-b89c-4876-a658-7a6f27eaef72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "96b01d40-7171-4a1f-8b2f-4c0e134bb1d0",
+        "booking_time": "2023-10-03T00:45:55.599Z",
+        "total_seats": 98277,
+        "total_price": 98826,
+        "created_at": "2023-10-02T20:09:42.405Z",
+        "updated_at": "2023-10-02T14:48:54.367Z",
+        "show_id": "ab7d22ed-c5cf-4ba7-8067-2944f8d80aab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e4c904a-5778-483a-a400-da652e08d23a",
+        "booking_time": "2023-10-02T11:08:22.646Z",
+        "total_seats": 68418,
+        "total_price": 13311,
+        "created_at": "2023-10-03T03:57:06.329Z",
+        "updated_at": "2023-10-03T01:24:34.798Z",
+        "show_id": "a33ea7e7-b89c-4876-a658-7a6f27eaef72",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81f56359-56a7-4ac2-a07b-9c822cacc224",
+        "booking_time": "2023-10-02T19:26:54.301Z",
+        "total_seats": 3269,
+        "total_price": 125,
+        "created_at": "2023-10-02T11:16:40.095Z",
+        "updated_at": "2023-10-03T03:19:03.368Z",
+        "show_id": "9ac600d3-ff95-4ef7-b28d-65ba946a4e68",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67c37108-0781-48dd-9730-4898867f7ace",
+        "booking_time": "2023-10-02T18:36:35.781Z",
+        "total_seats": 77756,
+        "total_price": 98344,
+        "created_at": "2023-10-03T03:21:15.296Z",
+        "updated_at": "2023-10-02T20:52:38.372Z",
+        "show_id": "a33ea7e7-b89c-4876-a658-7a6f27eaef72",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "f15d353d-7442-45cf-ae52-a311285df9ea",
+        "seat_number": 16326,
+        "price": 25485,
+        "created_at": "2023-10-02T10:04:34.238Z",
+        "updated_at": "2023-10-02T18:37:56.986Z",
+        "booking_id": "96b01d40-7171-4a1f-8b2f-4c0e134bb1d0"
+      },
+      {
+        "id": "3ebb822f-ad36-4da0-b32f-ab1d270c2f30",
+        "seat_number": 6955,
+        "price": 80122,
+        "created_at": "2023-10-02T12:49:20.515Z",
+        "updated_at": "2023-10-02T18:15:27.581Z",
+        "booking_id": "81f56359-56a7-4ac2-a07b-9c822cacc224"
+      },
+      {
+        "id": "3ffde123-1744-44b6-ac9b-9b853b18a4e2",
+        "seat_number": 36379,
+        "price": 28209,
+        "created_at": "2023-10-02T20:43:39.559Z",
+        "updated_at": "2023-10-03T01:02:25.797Z",
+        "booking_id": "96b01d40-7171-4a1f-8b2f-4c0e134bb1d0"
+      },
+      {
+        "id": "3711638b-7d9a-41a1-b6cb-093be1d51ea3",
+        "seat_number": 66314,
+        "price": 4170,
+        "created_at": "2023-10-02T17:43:30.959Z",
+        "updated_at": "2023-10-02T22:42:59.943Z",
+        "booking_id": "96b01d40-7171-4a1f-8b2f-4c0e134bb1d0"
+      },
+      {
+        "id": "ffeafa36-9ea1-4a95-bc63-c79fe4493575",
+        "seat_number": 76163,
+        "price": 15694,
+        "created_at": "2023-10-03T04:23:53.072Z",
+        "updated_at": "2023-10-02T16:48:38.992Z",
+        "booking_id": "67c37108-0781-48dd-9730-4898867f7ace"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6fb40045-767f-406c-877b-6ee8e8413d08",
+        "email": "Martina_Luettgen@roq.tech",
+        "firstName": "Cale",
+        "lastName": "Beer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/790.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e9f3d8f3-24bd-47ba-813c-b02e5763647c",
+        "email": "Coleman95@roq.tech",
+        "firstName": "Dino",
+        "lastName": "Mann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28820575",
+        "tenantId": null
+      },
+      {
+        "reference": "836297d9-d01a-4c27-9504-923c34c42ddf",
+        "email": "Lyric.Prosacco82@roq.tech",
+        "firstName": "Vernon",
+        "lastName": "Macejkovic",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1086.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "923d0a82-d146-4500-a65d-6d4da302c734",
+        "email": "Cleve35@roq.tech",
+        "firstName": "Amber",
+        "lastName": "Wintheiser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/72288980",
+        "tenantId": null
+      },
+      {
+        "reference": "2490dffe-d94c-4175-bd55-1b1dad8a2d59",
+        "email": "Shania64@roq.tech",
+        "firstName": "Rafaela",
+        "lastName": "Kerluke",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/379.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "5f4efa2d-168c-442a-b92b-70f4c2cf7aea",
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "genre": "Sci-Fi",
+        "duration": 80509,
+        "rating": 61993,
+        "release_date": "2023-10-03T01:14:27.991Z",
+        "created_at": "2023-10-03T03:33:47.779Z",
+        "updated_at": "2023-10-02T14:10:59.628Z"
+      },
+      {
+        "id": "8392f4a3-f85c-4a62-896b-fad07a82f107",
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "genre": "Drama",
+        "duration": 96962,
+        "rating": 75700,
+        "release_date": "2023-10-03T04:04:59.253Z",
+        "created_at": "2023-10-02T20:30:54.797Z",
+        "updated_at": "2023-10-03T00:31:57.378Z"
+      },
+      {
+        "id": "9804aaf2-2354-4a7d-b395-50cfe685ef96",
+        "title": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "genre": "Crime",
+        "duration": 58384,
+        "rating": 38775,
+        "release_date": "2023-10-02T22:13:29.865Z",
+        "created_at": "2023-10-02T14:51:09.261Z",
+        "updated_at": "2023-10-02T05:11:29.350Z"
+      },
+      {
+        "id": "e3db979f-a20a-46a7-bfd2-e5145818c94b",
+        "title": "Fight Club",
+        "director": "David Fincher",
+        "genre": "Thriller",
+        "duration": 61169,
+        "rating": 55262,
+        "release_date": "2023-10-03T00:37:52.184Z",
+        "created_at": "2023-10-02T06:53:31.965Z",
+        "updated_at": "2023-10-02T14:13:02.458Z"
+      },
+      {
+        "id": "d1552573-674f-492e-9aac-a7a992eb63bc",
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "duration": 39755,
+        "rating": 91059,
+        "release_date": "2023-10-02T05:57:16.256Z",
+        "created_at": "2023-10-03T04:03:02.680Z",
+        "updated_at": "2023-10-02T05:14:47.054Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "62e6bc89-3b79-4ca8-9f4b-39617f08046c",
+        "show_time": "2023-10-03T00:49:14.429Z",
+        "seat_price": 66518,
+        "available_seats": 1147,
+        "created_at": "2023-10-03T00:55:32.010Z",
+        "updated_at": "2023-10-02T19:27:04.445Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "d1552573-674f-492e-9aac-a7a992eb63bc"
+      },
+      {
+        "id": "e4309382-7a29-4388-a3d7-848353ab34b1",
+        "show_time": "2023-10-02T10:04:52.903Z",
+        "seat_price": 14791,
+        "available_seats": 79100,
+        "created_at": "2023-10-02T20:33:29.490Z",
+        "updated_at": "2023-10-02T06:47:34.365Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "8392f4a3-f85c-4a62-896b-fad07a82f107"
+      },
+      {
+        "id": "e794fd50-7485-4180-ac44-e2a4a7f68a95",
+        "show_time": "2023-10-02T23:42:31.785Z",
+        "seat_price": 9173,
+        "available_seats": 63238,
+        "created_at": "2023-10-02T18:40:35.808Z",
+        "updated_at": "2023-10-03T02:59:42.073Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "5f4efa2d-168c-442a-b92b-70f4c2cf7aea"
+      },
+      {
+        "id": "214e3687-621f-4acb-b1a4-902ff43a4b3d",
+        "show_time": "2023-10-03T03:24:23.673Z",
+        "seat_price": 89887,
+        "available_seats": 45056,
+        "created_at": "2023-10-03T00:07:15.917Z",
+        "updated_at": "2023-10-02T17:04:13.994Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "e3db979f-a20a-46a7-bfd2-e5145818c94b"
+      },
+      {
+        "id": "39f63123-c26f-4112-accc-77777b5e132b",
+        "show_time": "2023-10-02T15:50:12.845Z",
+        "seat_price": 95494,
+        "available_seats": 87785,
+        "created_at": "2023-10-02T16:14:39.793Z",
+        "updated_at": "2023-10-02T15:03:03.626Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "5f4efa2d-168c-442a-b92b-70f4c2cf7aea"
+      }
+    ],
+    "booking": [
+      {
+        "id": "2a4ade06-f7fa-4d49-b66e-79b6dacae1ec",
+        "booking_time": "2023-10-02T12:15:08.282Z",
+        "total_seats": 95250,
+        "total_price": 53976,
+        "created_at": "2023-10-03T00:12:00.327Z",
+        "updated_at": "2023-10-02T23:46:50.184Z",
+        "show_id": "62e6bc89-3b79-4ca8-9f4b-39617f08046c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ddd2c047-6986-48e4-b514-f5c0dfc904a7",
+        "booking_time": "2023-10-02T07:51:34.322Z",
+        "total_seats": 75546,
+        "total_price": 42020,
+        "created_at": "2023-10-02T12:03:43.566Z",
+        "updated_at": "2023-10-02T17:55:57.303Z",
+        "show_id": "e4309382-7a29-4388-a3d7-848353ab34b1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e50836c7-78ad-4d36-a76f-cd71e7bc4e93",
+        "booking_time": "2023-10-02T14:05:16.673Z",
+        "total_seats": 73662,
+        "total_price": 97208,
+        "created_at": "2023-10-03T03:42:51.996Z",
+        "updated_at": "2023-10-03T03:16:57.135Z",
+        "show_id": "39f63123-c26f-4112-accc-77777b5e132b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97a1821d-8b4a-4903-934b-3d7c27a403a9",
+        "booking_time": "2023-10-02T18:43:42.249Z",
+        "total_seats": 25122,
+        "total_price": 88874,
+        "created_at": "2023-10-02T21:39:57.507Z",
+        "updated_at": "2023-10-02T07:19:18.698Z",
+        "show_id": "e794fd50-7485-4180-ac44-e2a4a7f68a95",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2419ec26-0ced-4a6b-bd86-d513a7d68925",
+        "booking_time": "2023-10-02T11:31:44.658Z",
+        "total_seats": 56435,
+        "total_price": 66801,
+        "created_at": "2023-10-02T15:43:46.557Z",
+        "updated_at": "2023-10-02T06:46:55.425Z",
+        "show_id": "62e6bc89-3b79-4ca8-9f4b-39617f08046c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "9537559a-8151-4609-9754-0fe00a9d5fa1",
+        "seat_number": 38356,
+        "price": 45361,
+        "created_at": "2023-10-03T01:54:13.017Z",
+        "updated_at": "2023-10-02T05:24:22.222Z",
+        "booking_id": "e50836c7-78ad-4d36-a76f-cd71e7bc4e93"
+      },
+      {
+        "id": "678aaf90-fe01-477b-b675-2fc09b99f083",
+        "seat_number": 89401,
+        "price": 2688,
+        "created_at": "2023-10-02T13:30:57.993Z",
+        "updated_at": "2023-10-02T20:21:00.593Z",
+        "booking_id": "e50836c7-78ad-4d36-a76f-cd71e7bc4e93"
+      },
+      {
+        "id": "e56d44fd-4b77-4536-841d-63377b32d5c6",
+        "seat_number": 42883,
+        "price": 29679,
+        "created_at": "2023-10-02T14:17:58.716Z",
+        "updated_at": "2023-10-02T11:59:00.998Z",
+        "booking_id": "2419ec26-0ced-4a6b-bd86-d513a7d68925"
+      },
+      {
+        "id": "aff3910e-9c1f-417b-898a-341d54e1bbbb",
+        "seat_number": 57203,
+        "price": 81339,
+        "created_at": "2023-10-02T06:03:54.401Z",
+        "updated_at": "2023-10-02T19:50:29.636Z",
+        "booking_id": "ddd2c047-6986-48e4-b514-f5c0dfc904a7"
+      },
+      {
+        "id": "9e656043-16ec-4240-a13b-0145a1a39e50",
+        "seat_number": 98763,
+        "price": 34345,
+        "created_at": "2023-10-02T14:31:49.730Z",
+        "updated_at": "2023-10-02T19:13:36.243Z",
+        "booking_id": "e50836c7-78ad-4d36-a76f-cd71e7bc4e93"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "6bb86cc5-ff94-47f4-98b4-5461b5be36b5",
+        "email": "Ines.Jacobs@roq.tech",
+        "firstName": "Tad",
+        "lastName": "D'Amore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13805993",
+        "tenantId": null
+      },
+      {
+        "reference": "0c7fa95d-26f3-44a3-bf48-9affe47bd860",
+        "email": "Ismael.Lynch17@roq.tech",
+        "firstName": "Sandy",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/77773315",
+        "tenantId": null
+      },
+      {
+        "reference": "2e23ab53-0e66-4465-a205-c187f9866f6b",
+        "email": "Jerrold_Nolan@roq.tech",
+        "firstName": "Cletus",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1216.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cfc087f3-7d10-4262-b30b-b0200a3e38b4",
+        "email": "Angus_Langworth@roq.tech",
+        "firstName": "Wilfred",
+        "lastName": "Moore",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32332851",
+        "tenantId": null
+      },
+      {
+        "reference": "8d845425-2554-47fe-b591-f00da6f09cca",
+        "email": "Salvatore85@roq.tech",
+        "firstName": "Brooks",
+        "lastName": "Block",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/31042912",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "movie": [
+      {
+        "id": "6c4a03af-eb7f-4781-a570-0e549da7c495",
+        "title": "Inception",
+        "director": "Christopher Nolan",
+        "genre": "Sci-Fi",
+        "duration": 18363,
+        "rating": 9138,
+        "release_date": "2023-10-03T00:31:31.720Z",
+        "created_at": "2023-10-03T01:38:02.503Z",
+        "updated_at": "2023-10-02T15:23:48.993Z"
+      },
+      {
+        "id": "2bf3d2e7-5432-49ce-9bcf-ecd6c70f83dc",
+        "title": "The Shawshank Redemption",
+        "director": "Frank Darabont",
+        "genre": "Drama",
+        "duration": 49949,
+        "rating": 50337,
+        "release_date": "2023-10-02T23:07:40.485Z",
+        "created_at": "2023-10-03T02:18:18.937Z",
+        "updated_at": "2023-10-02T17:16:32.017Z"
+      },
+      {
+        "id": "c8133711-036a-44c8-8656-cc25c0466a87",
+        "title": "Pulp Fiction",
+        "director": "Quentin Tarantino",
+        "genre": "Crime",
+        "duration": 82264,
+        "rating": 36346,
+        "release_date": "2023-10-02T16:09:11.045Z",
+        "created_at": "2023-10-02T10:05:49.913Z",
+        "updated_at": "2023-10-02T06:08:42.154Z"
+      },
+      {
+        "id": "ec818819-d57c-49a6-af9a-b5308b98c92e",
+        "title": "Fight Club",
+        "director": "David Fincher",
+        "genre": "Thriller",
+        "duration": 92393,
+        "rating": 65455,
+        "release_date": "2023-10-02T18:06:24.068Z",
+        "created_at": "2023-10-02T08:36:10.441Z",
+        "updated_at": "2023-10-02T17:20:42.837Z"
+      },
+      {
+        "id": "45206d5c-be28-43f7-9464-747214185ea1",
+        "title": "The Dark Knight",
+        "director": "Christopher Nolan",
+        "genre": "Action",
+        "duration": 24158,
+        "rating": 20217,
+        "release_date": "2023-10-02T23:35:49.738Z",
+        "created_at": "2023-10-02T17:27:36.177Z",
+        "updated_at": "2023-10-02T15:06:32.969Z"
+      }
+    ],
+    "show": [
+      {
+        "id": "465272f6-9bb7-4b32-82b0-86c17c467b50",
+        "show_time": "2023-10-03T01:23:08.840Z",
+        "seat_price": 92244,
+        "available_seats": 82352,
+        "created_at": "2023-10-03T01:14:30.382Z",
+        "updated_at": "2023-10-02T21:30:38.449Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "45206d5c-be28-43f7-9464-747214185ea1"
+      },
+      {
+        "id": "6d11ec91-1fb6-4c5d-a397-69eabb30796b",
+        "show_time": "2023-10-02T13:27:56.271Z",
+        "seat_price": 76358,
+        "available_seats": 8625,
+        "created_at": "2023-10-02T20:51:11.553Z",
+        "updated_at": "2023-10-02T19:13:18.419Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "45206d5c-be28-43f7-9464-747214185ea1"
+      },
+      {
+        "id": "e95ba1d3-f58c-4006-9596-f08d598ff759",
+        "show_time": "2023-10-03T00:33:20.450Z",
+        "seat_price": 47353,
+        "available_seats": 8213,
+        "created_at": "2023-10-03T01:56:46.326Z",
+        "updated_at": "2023-10-03T01:19:04.113Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "ec818819-d57c-49a6-af9a-b5308b98c92e"
+      },
+      {
+        "id": "b8aa63ed-faa7-418a-bd90-0ab53bdb46b6",
+        "show_time": "2023-10-03T02:53:58.566Z",
+        "seat_price": 49832,
+        "available_seats": 56059,
+        "created_at": "2023-10-02T18:17:41.648Z",
+        "updated_at": "2023-10-03T01:12:39.251Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "45206d5c-be28-43f7-9464-747214185ea1"
+      },
+      {
+        "id": "87f15b16-173e-49eb-b9d6-7280afc53d3e",
+        "show_time": "2023-10-03T02:10:11.122Z",
+        "seat_price": 96014,
+        "available_seats": 45545,
+        "created_at": "2023-10-02T08:12:05.430Z",
+        "updated_at": "2023-10-02T15:34:51.854Z",
+        "cinema_id": "main_entity_pk",
+        "movie_id": "c8133711-036a-44c8-8656-cc25c0466a87"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f0b00af2-93eb-4a3c-b806-f792766ac567",
+        "booking_time": "2023-10-02T06:22:39.815Z",
+        "total_seats": 16297,
+        "total_price": 31465,
+        "created_at": "2023-10-03T01:03:49.581Z",
+        "updated_at": "2023-10-03T01:43:34.048Z",
+        "show_id": "6d11ec91-1fb6-4c5d-a397-69eabb30796b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b016e9e-7bf5-4162-8960-f2497362fc3e",
+        "booking_time": "2023-10-02T22:16:12.386Z",
+        "total_seats": 50893,
+        "total_price": 5153,
+        "created_at": "2023-10-03T04:48:07.894Z",
+        "updated_at": "2023-10-02T11:57:56.335Z",
+        "show_id": "87f15b16-173e-49eb-b9d6-7280afc53d3e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "05f00cdd-ecf2-479d-a1a7-c0a3549db559",
+        "booking_time": "2023-10-02T05:02:28.263Z",
+        "total_seats": 5138,
+        "total_price": 35989,
+        "created_at": "2023-10-03T04:49:20.194Z",
+        "updated_at": "2023-10-02T08:05:26.946Z",
+        "show_id": "465272f6-9bb7-4b32-82b0-86c17c467b50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4beb04fe-5dea-4d20-ac82-f7ae1ef99dcd",
+        "booking_time": "2023-10-02T09:28:44.080Z",
+        "total_seats": 82248,
+        "total_price": 35259,
+        "created_at": "2023-10-02T10:47:04.623Z",
+        "updated_at": "2023-10-02T15:23:06.173Z",
+        "show_id": "465272f6-9bb7-4b32-82b0-86c17c467b50",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39aa8683-0446-4be9-9fc8-7690d88e1dc6",
+        "booking_time": "2023-10-02T06:39:00.996Z",
+        "total_seats": 58776,
+        "total_price": 82465,
+        "created_at": "2023-10-02T21:25:38.082Z",
+        "updated_at": "2023-10-03T04:01:48.666Z",
+        "show_id": "e95ba1d3-f58c-4006-9596-f08d598ff759",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "1f999c92-4f5c-4ea1-bc4b-2843243f46fc",
+        "seat_number": 83017,
+        "price": 86708,
+        "created_at": "2023-10-02T17:09:36.775Z",
+        "updated_at": "2023-10-02T09:21:00.549Z",
+        "booking_id": "39aa8683-0446-4be9-9fc8-7690d88e1dc6"
+      },
+      {
+        "id": "ad69f6f8-880d-4593-9847-dadc6164ce7a",
+        "seat_number": 51125,
+        "price": 31481,
+        "created_at": "2023-10-02T08:26:44.600Z",
+        "updated_at": "2023-10-02T15:36:07.564Z",
+        "booking_id": "4beb04fe-5dea-4d20-ac82-f7ae1ef99dcd"
+      },
+      {
+        "id": "c09c527b-ec00-40e0-a360-73c01c6787ae",
+        "seat_number": 97789,
+        "price": 6848,
+        "created_at": "2023-10-03T00:01:35.641Z",
+        "updated_at": "2023-10-02T17:40:42.006Z",
+        "booking_id": "4beb04fe-5dea-4d20-ac82-f7ae1ef99dcd"
+      },
+      {
+        "id": "87938e1d-85f9-4479-8036-81ea1232934d",
+        "seat_number": 14454,
+        "price": 11139,
+        "created_at": "2023-10-02T19:01:13.047Z",
+        "updated_at": "2023-10-02T16:56:44.753Z",
+        "booking_id": "4beb04fe-5dea-4d20-ac82-f7ae1ef99dcd"
+      },
+      {
+        "id": "ffb61789-e126-46c8-8af5-89501e04af08",
+        "seat_number": 38362,
+        "price": 45157,
+        "created_at": "2023-10-03T02:55:32.582Z",
+        "updated_at": "2023-10-02T13:08:41.061Z",
+        "booking_id": "39aa8683-0446-4be9-9fc8-7690d88e1dc6"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c81ff0ab-efd4-4841-a73e-2ddea586b5a1",
+        "email": "Fleta39@roq.tech",
+        "firstName": "Joan",
+        "lastName": "Bosco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e5d93b1-0e07-4d02-9054-3d6264dcba6a",
+        "email": "Marian.Franecki29@roq.tech",
+        "firstName": "Angeline",
+        "lastName": "Turner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2775047",
+        "tenantId": null
+      },
+      {
+        "reference": "fd2aca9f-13a4-4334-9a8a-e6b3ebb0535b",
+        "email": "Jaron.Hoeger48@roq.tech",
+        "firstName": "Lowell",
+        "lastName": "Lowe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99165030",
+        "tenantId": null
+      },
+      {
+        "reference": "af86c919-3201-41b0-a77e-2bd94abd7d0d",
+        "email": "Teagan43@roq.tech",
+        "firstName": "Johnpaul",
+        "lastName": "Kunze",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/805.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "5524796c-6aea-4dfc-b817-c74f0ab94fcd",
+        "email": "Dusty.Botsford99@roq.tech",
+        "firstName": "Claudine",
+        "lastName": "Swaniawski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/829.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
